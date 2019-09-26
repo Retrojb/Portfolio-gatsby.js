@@ -1,4 +1,4 @@
-html {
+/* html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -7,14 +7,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-nav-bar{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  list-style: none;
-  margin: 10px;
-
 }
 
 article,
@@ -628,4 +620,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
+} */
