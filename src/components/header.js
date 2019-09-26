@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Navigation from "./navigation"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -17,16 +18,9 @@ const Header = ({ siteTitle }) => (
       }}
     >
       <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
+        {siteTitle}
       </h1>
+      <Navigation />
     </div>
   </header>
 )
