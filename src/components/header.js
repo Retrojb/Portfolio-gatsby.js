@@ -5,11 +5,10 @@ import Navigation from "./navigation"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div>
+    <div className="title">
       <h1>
         {siteTitle}
       </h1>
-      <Navigation />
     </div>
   </header>
 )

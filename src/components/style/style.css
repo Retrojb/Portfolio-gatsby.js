@@ -1,28 +1,64 @@
-.container{
+.nav-bar{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  
+  justify-content: space-around;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-
-}
-
-.container nav {
   list-style: none;
   line-height: 3; 
   color: red; 
   border: 2px solid green;
   align-items: space-between;
+  margin: 1rem;
 }
-.container nav link {
-  margin: 2rem;
-  border: 5px dashed blue;
+
+.nav-bar a {
+  color: aqua;
+  font-size: 24px;
 }
-/* .nav-bar::after{
-  content: unset;
+
+.contact {
+  background-color: aliceblue;
+  padding: 3rem;
+  margin-right:40rem;
+}
+
+.contact h2 {
+  color: red;
+}
+
+.contact a {
   display: flex;
   flex-direction: column;
-  line-height: 3;
-} */
+  line-height: 2rem;
+}
+.index-body {
+  border: 1rem red soild;
+  margin: 1rem;
+}
+
+.title {
+  padding-left: 2rem;
+  font-size: 28px;
+  border: 3px blue solid;
+}
+
+.skill-block {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 2rem;
+  margin-right: 40rem; 
+  border: 1px gold dashed;
+}
+
+.skill-block span {
+  padding:1.5rem;
+  border: 1px turquoise dashed;
+}
+
+.logo {
+  height: 5rem;
+  width: 5rem;
+}
