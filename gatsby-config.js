@@ -3,6 +3,8 @@ module.exports = {
     title: `Retrojb Portfolio`,
     description: `Welcome to John Baltes aka Retrojb development world.`,
     author: `@retrojb`,
+    attachments:
+      "./Resume.pdf"
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
