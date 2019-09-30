@@ -7,7 +7,7 @@ const Skills = () => {
 
     return (
         <div className="skill-block">
-            <a href="https://www.google.com">
+            <a href="https://www.google.com" target="blank">
                 <img src={java}  alt="Java logo" className="logo" />
             </a>
             <span> block 1</span>
