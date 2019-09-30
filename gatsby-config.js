@@ -3,8 +3,16 @@ module.exports = {
     title: `Retrojb Portfolio`,
     description: `Welcome to John Baltes aka Retrojb development world.`,
     author: `@retrojb`,
+    name: `John Baltes`,
+    email: `baltescartography@gmail.com`,
+    github: `https://www.github.com/retrojb` ,
+    linkedIn: `https://www.linkedin.com/in/john-baltes/`,
+    phone: `(937)272-0959`,
+    hackerRank: ``,
     attachments:
       "./Resume.pdf"
+
+      //set the site url in here once hosted
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -23,14 +31,32 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        // background_color: `#663399`,
-        // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/static/html.png`, // This path is relative to the root of the site.
       },
     },
+
+    // ** FILE SYSTEM PLUGIN  **
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`
+      }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `static`,
+        path: `${__dirname}/src/static`,
+        ignore: `**/node_modules`
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
+  mapping: {
+    "MarkdownRemark.frontmatter.author": `AuthorYaml`
+  } 
 }
