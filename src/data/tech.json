@@ -1,0 +1,42 @@
+[
+    //come back and update
+    {
+        "id": "Angular"
+    },
+    {
+        "id": "Java"
+    },
+    {
+        "id": "Ionic"
+    },
+    {
+        "id": "Cordova"
+    },
+    {
+        "id": "Splunk"
+    },
+    {
+        "id": "Google Analytics"
+    },
+    {
+        "id": "PostGres SQL"
+    },
+    {
+        "id": "AWS"
+    },
+    {
+        "id": "Docker"
+    },
+    {
+        "id": "Kubernetes"
+    },
+    {
+        "id": "Concourse CI"
+    },
+    {
+        "id": "Agile"
+    },
+    {
+        "id": "Requirements Analysis"
+    }
+]

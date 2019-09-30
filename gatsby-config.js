@@ -51,12 +51,12 @@ module.exports = {
         path: `${__dirname}/src/static`,
         ignore: `**/node_modules`
       }
-    }
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
   mapping: {
-    "MarkdownRemark.frontmatter.author": `AuthorYaml`
+    "ExperienceJson.items.tech": `TechJson`
   } 
 }

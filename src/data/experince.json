@@ -1,0 +1,47 @@
+[
+    {
+        "id": "Nationwide",
+        "company": "Nationwide",
+        "position": "Application Developer",
+        "from": "October 2018",
+        "to": "Current",
+        "items": [
+            {
+                "label": "projects",
+                "proj": [ "Nationwide Mobile App", "Whoville Internal IT HR App", "Information Risk Management"]
+            },
+            {
+                "label": "Worked with",
+                "tech": ["Angular", "Java", "Ionic", "Cordova", "Splunk", "Google Analytics", "PostGres SQL", "AWS", "Docker", "Kubernetes",
+                "Concourse CI", "Agile", "Requirements Analysis"]
+            },
+            {
+                "label": "Other",
+                "side": ["New Developer Learning Circle"]
+            }
+        ]
+    },
+    {
+        "id": "OhioState",
+        "company": "Ohio State University",
+        "position": "GIS Intern",
+        "from": "October 2018",
+        "to": "Current",
+        "items": [
+            {
+                "label": "projects",
+                "proj": [ "Nationwide Mobile App", "Whoville Internal IT HR App", "Information Risk Management"]
+            },
+            {
+                "label": "Worked with",
+                "tech": ["Angular", "Java", "Ionic", "Cordova", "Splunk", "Google Analytics", "PostGres SQL", "AWS", "Docker", "Kubernetes",
+                "Concourse CI", "Agile", "Requirements Analysis"]
+            },
+            {
+                "label": "Other",
+                "side": ["New Developer Learning Circle"]
+            }
+        ]
+    }
+    
+]
