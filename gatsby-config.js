@@ -10,7 +10,7 @@ module.exports = {
     phone: `(937)272-0959`,
     hackerRank: ``,
     attachments:
-      "./Resume.pdf"
+      "./static/Resume.pdf"
 
       //set the site url in here once hosted
   },

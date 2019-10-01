@@ -1,0 +1,62 @@
+[
+    {
+        "label": "java",
+        "imgSrc": "../static/java.png",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "angular",
+        "imgSrc": "../static/angular.png",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "kotlin",
+        "imgSrc": "../static/kotlin.jpeg",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "js",
+        "imgSrc": "../static/js-logo.png",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "mongo",
+        "imgSrc": "../static/mongo.png",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "gatsby",
+        "imgSrc": "../static/gatsby.png",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "python",
+        "imgSrc": "../static/python.png",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "typescript",
+        "imgSrc": "../static/typescript.png",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "react",
+        "imgSrc": "../static/react.png",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "concourse",
+        "imgSrc": "../static/concourse.png",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "html",
+        "imgSrc": "../static/html.png",
+        "redirect": "https://www.google.com"
+    },
+    {
+        "label": "css",
+        "imgSrc": "../static/css.png",
+        "redirect": "https://www.google.com"
+    }
+]

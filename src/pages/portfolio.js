@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, graphql, StaticQuery } from "gatsby";
 import Layout from "../components/layout";
-import Header from "../components/header";
 
 const Portfolio = () => (
 
@@ -34,11 +33,15 @@ const Portfolio = () => (
   </Layout>
 )
 
-
 function getExperienceName(data) {
   const experienceArray = [];
   data.allExperienceJson.edges.forEach(item => 
-    experienceArray.push(<li key={item.node.company} color="orange">{item.node.company}</li>));
+    experienceArray.push(<li key={item.node.company}>
+                      {item.node.company}<br/>
+                      Position: {item.node.position}<br/>
+                      From: {item.node.from}<br/>
+                      To: {item.node.to}<br/>
+                      </li>));
     return experienceArray;
 }
 
