@@ -52,11 +52,19 @@ module.exports = {
         ignore: `**/node_modules`
       }
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+        ignore: `**/node_modules`
+      }
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
   mapping: {
-    "ExperienceJson.items.tech": `TechJson`
+    'ExperienceJson.items.tech': `TechJson`
   } 
 }

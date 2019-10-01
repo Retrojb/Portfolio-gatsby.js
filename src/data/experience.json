@@ -17,29 +17,24 @@
             },
             {
                 "label": "Other",
-                "side": ["New Developer Learning Circle"]
+                "side": "New Developer Learning Circle"
             }
         ]
-    },
-    {
+    }
+    ,{
         "id": "OhioState",
         "company": "Ohio State University",
         "position": "GIS Intern",
-        "from": "October 2018",
-        "to": "Current",
+        "from": "October 2016",
+        "to": "May 2017",
         "items": [
             {
                 "label": "projects",
-                "proj": [ "Nationwide Mobile App", "Whoville Internal IT HR App", "Information Risk Management"]
+                "proj": "Pastoralist Migration"
             },
             {
                 "label": "Worked with",
-                "tech": ["Angular", "Java", "Ionic", "Cordova", "Splunk", "Google Analytics", "PostGres SQL", "AWS", "Docker", "Kubernetes",
-                "Concourse CI", "Agile", "Requirements Analysis"]
-            },
-            {
-                "label": "Other",
-                "side": ["New Developer Learning Circle"]
+                "tech": ["ArcMap", "IBM Statics", "Excel"]
             }
         ]
     }
