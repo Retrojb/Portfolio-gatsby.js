@@ -2,7 +2,6 @@ import React from 'react';
 import './style/style.css';
 import Skills from './skills';
 
-let name = "John Baltes"
 const IndexBody = () => {
     return ( 
     <div className="index-body"> 

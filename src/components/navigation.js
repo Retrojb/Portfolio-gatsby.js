@@ -1,7 +1,5 @@
 import React from 'react';
 import { Link } from "gatsby"
-import style from "./style/style.css";
-
 
 const Navigation = () => {
     return (
