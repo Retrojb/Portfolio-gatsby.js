@@ -1,14 +1,43 @@
 import React from "react";
-import { Link, graphql } from "gatsby";
+import { Link, graphql, StaticQuery } from "gatsby";
 import Layout from "../components/layout";
 
-const Portfolio = ({ data }) => (
+const Portfolio = () => (
+
   <Layout>
-    <h3>portfolio page</h3>
-    <h1>{data.experience.company}</h1>
+    <StaticQuery query={ graphql`
+        query ExperienceQuery {
+          allExperienceJson {
+            edges {
+              node {
+                company
+                position
+                from
+                to
+                items {
+                  tech
+                  label
+                  side
+                }
+              }
+            }
+          }
+        }
+      `}
+      render={ data => (
+        <>
+          <h1>{getExperienceName(data)}</h1>
+        </>
+          )} />
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
+
+function getExperienceName(data) {
+  const experienceArray = [];
+  data.allExperienceJson.edges.forEach(item => 
+    experienceArray.push(<h2 key={item.node.company} color="orange"></h2>))
+}
 
 export default Portfolio

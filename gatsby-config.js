@@ -35,8 +35,7 @@ module.exports = {
         icon: `src/static/html.png`, // This path is relative to the root of the site.
       },
     },
-
-    // ** FILE SYSTEM PLUGIN  **
+    `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -59,12 +58,16 @@ module.exports = {
         path: `${__dirname}/src/`,
         ignore: `**/node_modules`
       }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `data`,
+        path: `${__dirname}/src/data`
+      }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
-  ],
-  mapping: {
-    'ExperienceJson.items.tech': `TechJson`
-  } 
+  ]
 }
