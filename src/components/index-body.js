@@ -1,13 +1,13 @@
 import React from 'react';
 import './style/style.css';
-import Skills from './skills';
+import Logo from './logo';
 
 const IndexBody = () => {
     return ( 
     <div className="index-body"> 
             <Name />
             <ContactInfo />
-            <Skills />  
+            <Logo />  
     </div>
     );
 

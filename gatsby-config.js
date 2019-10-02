@@ -47,16 +47,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `static`,
-        path: `${__dirname}/src/static`,
-        ignore: `**/node_modules`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `src`,
-        path: `${__dirname}/src/`,
-        ignore: `**/node_modules`
+        path: `${__dirname}/src/static`
       }
     },
     {

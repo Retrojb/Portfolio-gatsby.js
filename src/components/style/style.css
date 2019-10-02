@@ -61,3 +61,11 @@
   height: 5rem;
   width: 5rem;
 }
+
+.turk-bar {
+  background-color: aliceblue;
+}
+.foo-bar {
+  background-color: greenyellow;
+  border: 3px blueviolet solid;
+}

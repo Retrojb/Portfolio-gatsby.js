@@ -5,8 +5,8 @@ const Skills = () => {
  // change all of the links to modals
  // find a better way to import all of the pics maybe make a seprate class to handle the images. 
     return (
-        <div className="h">
-           <Logo />
+        <div className="turk-bar">
+           <Logo></Logo>
         </div>
     )
 }

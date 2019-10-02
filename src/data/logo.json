@@ -1,62 +1,63 @@
 [
+
     {
-        "label": "java",
-        "imgSrc": "../static/java.png",
-        "redirect": "https://www.google.com"
+        "id": "java",
+        "imgSrc": "../static/java.png"
+       
     },
     {
-        "label": "angular",
-        "imgSrc": "../static/angular.png",
-        "redirect": "https://www.google.com"
+        "id": "angular",
+        "imgSrc": "../static/angular.png"
+       
     },
     {
-        "label": "kotlin",
-        "imgSrc": "../static/kotlin.jpeg",
-        "redirect": "https://www.google.com"
+        "id": "kotlin",
+        "imgSrc": "../static/kotlin.jpeg"
+       
     },
     {
-        "label": "js",
-        "imgSrc": "../static/js-logo.png",
-        "redirect": "https://www.google.com"
+        "id": "js",
+        "imgSrc": "../static/js-logo.png"
+       
     },
     {
-        "label": "mongo",
-        "imgSrc": "../static/mongo.png",
-        "redirect": "https://www.google.com"
+        "id": "mongo",
+        "imgSrc": "../static/mongo.png"
+       
     },
     {
-        "label": "gatsby",
-        "imgSrc": "../static/gatsby.png",
-        "redirect": "https://www.google.com"
+        "id": "gatsby",
+        "imgSrc": "../static/gatsby.png"
+       
     },
     {
-        "label": "python",
-        "imgSrc": "../static/python.png",
-        "redirect": "https://www.google.com"
+        "id": "python",
+        "imgSrc": "../static/python.png"
+       
     },
     {
-        "label": "typescript",
-        "imgSrc": "../static/typescript.png",
-        "redirect": "https://www.google.com"
+        "id": "typescript",
+        "imgSrc": "../static/typescript.png"
+       
     },
     {
-        "label": "react",
-        "imgSrc": "../static/react.png",
-        "redirect": "https://www.google.com"
+        "id": "react",
+        "imgSrc": "../static/react.png"
+       
     },
     {
-        "label": "concourse",
-        "imgSrc": "../static/concourse.png",
-        "redirect": "https://www.google.com"
+        "id": "concourse",
+        "imgSrc": "../static/concourse.png"
+       
     },
     {
-        "label": "html",
-        "imgSrc": "../static/html.png",
-        "redirect": "https://www.google.com"
+        "id": "html",
+        "imgSrc": "../static/html.png"
+       
     },
     {
-        "label": "css",
-        "imgSrc": "../static/css.png",
-        "redirect": "https://www.google.com"
+        "id": "css",
+        "imgSrc": "../static/css.png"
+       
     }
 ]
