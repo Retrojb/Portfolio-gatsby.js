@@ -5,7 +5,7 @@ const Header = ({ siteTitle }) => (
   <header>
     <div className="title">
       <h1>
-         fart
+      { siteTitle }
       </h1>
     </div>
   </header>
@@ -16,7 +16,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Retro JB`
 }
 
 export default Header

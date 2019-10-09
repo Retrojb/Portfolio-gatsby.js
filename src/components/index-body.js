@@ -1,5 +1,7 @@
 import React from 'react';
-import './style/style.css';
+import './style/style.module.css';
+import Container from './container';
+import Users from './user';
 import Logo from './logo';
 
 const IndexBody = () => {
@@ -8,6 +10,8 @@ const IndexBody = () => {
             <Name />
             <ContactInfo />
             <Logo />  
+            <Users />
+            <Container><h1>HI</h1></Container>
     </div>
     );
 
@@ -24,13 +28,13 @@ const ContactInfo = () => {
 //comeback to download resume file
     return(
     <div className="contact">
-        <email href="baltescartography@gmail.com"> Email Me</email>
-        <a href="https://github.com/retrojb" target="blank">Check out my Github</a>
-        <a href="https://linkedIn.com" target="blank"> LinkedIn</a>
+        <a href="baltescartography@gmail.com"> Email Me</a>
+        <a href="https://github.com/retrojb" target="blank">Check out my Github  ✓</a>
+        <a href="https://linkedIn.com" target="blank"> LinkedIn  ✓</a>
         <a href="/static/resume.pdf" download="Resume.pdf">Resume</a>
     </div>
     )
 }
 
-export default IndexBody;
+export default IndexBody
 

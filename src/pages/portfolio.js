@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 
 const Portfolio = () => (
 
-  <Layout>
+<Layout>
     <StaticQuery query={ graphql`
         query ExperienceQuery {
           allExperienceJson {
