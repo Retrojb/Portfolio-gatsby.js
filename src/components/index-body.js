@@ -2,15 +2,13 @@ import React from 'react';
 import './style/style.module.css';
 import Container from './container';
 import Users from './user';
-import Logo from './logo';
 
 const IndexBody = () => {
     return ( 
     <div className="index-body"> 
             <Name />
-            <ContactInfo />
-            <Logo />  
             <Users />
+            <ContactInfo />
             <Container><h1>HI</h1></Container>
     </div>
     );

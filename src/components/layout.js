@@ -10,8 +10,6 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-// import style from './style/style.module.css';
-import Navigation from "./navigation"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -23,16 +21,23 @@ const Layout = ({ children }) => {
       }
     }
   `)
-
+const NavLinks = props => (
+  <li style={{display: `inline-block`}}>
+    <Link to={props.to}>{props.children}</Link>
+  </li>
+)
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+   <>
+    <Header siteTitle={data.site.siteMetadata.title} />
       <div>
-        <Navigation />
-        <main>{children}</main>
-       
+        <ul>
+          <NavLinks to="/">Home</NavLinks>
+          <NavLink to="/about-me">About Retrojb</NavLink>
+          <NavLink to="/portfolio">Portfolio</NavLink>
+          <NavLink to="/blog">Blog</NavLink>  
+        </ul>
       </div>
-    </>
+  </>
   )
 }
 

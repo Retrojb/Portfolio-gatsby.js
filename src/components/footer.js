@@ -7,9 +7,11 @@ const Footer = () => {
     return (
     <div className="container">
          <footer>
+        
         <Navigation>
         </Navigation>
           {new Date().getFullYear()}
+        
         </footer>
     </div>
     )

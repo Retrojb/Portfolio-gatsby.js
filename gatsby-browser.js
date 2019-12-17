@@ -5,4 +5,4 @@
  */
 
 // You can delete this file if you're not using it
-import "./src/components/style/style.css"
+import "./src/components/style/style.module.css"
